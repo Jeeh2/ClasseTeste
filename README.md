@@ -10,7 +10,7 @@ Usando a classe de teste para testar uma classe chamada conversor no Apex
 
 
 
-public class ConversorEXCNana {
+    public class ConversorEXCNana {
     public static Decimal CelsiusParaFahrenheit(Decimal celsius){
         return (celsius * 9/5) + 32;
 
