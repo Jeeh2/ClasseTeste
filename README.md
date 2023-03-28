@@ -32,3 +32,28 @@ Usando a classe de teste para testar uma classe chamada conversor no Apex
 
 }
 
+
+    #ClASSE DE TESTE
+
+    @isTest
+    public class ConversorEXCNanaTest {
+    @isTest public static void TestCelsiusParaFahrenheit(){
+        Decimal celsius1 = ConversorEXCNana.CelsiusParaFahrenheit(50);
+       System.assertEquals(122, celsius1, 'Resultado não esperado');
+        
+    }
+    @isTest public static void TestFahrenheitParaCelsius(){
+        Decimal Fahrenheit1 = ConversorEXCNana.FahrenheitParaCelsius(80);
+        System.assertEquals(24, Fahrenheit1 , 'Resultado não esperado');
+    }
+    @isTest public static void TestKelvinParaCelcius(){
+        Decimal Kelvin1 = ConversorEXCNana.KelvinParaCelcius(500);
+        System.assertEquals(24, Kelvin1 , 'Resultado não esperado');
+    }
+     @isTest public static void TestMetroParaCm(){
+        Decimal Metro1 = ConversorEXCNana.MetroParaCm(5);
+        System.assertEquals(500, Metro1 , 'Resultado não esperado');
+     }
+
+}
+
