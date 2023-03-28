@@ -1,5 +1,5 @@
 # ClasseTeste
-Usando a classe de teste para testar uma classe chamada conversor no Apex
+Usando a Classe de Teste para testar uma Classe chamada Conversor no Apex
 
 
 
