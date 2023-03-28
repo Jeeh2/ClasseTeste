@@ -8,7 +8,7 @@ Usando a classe de teste para testar uma classe chamada conversor no Apex
 
 
 
-## Classe Conversor
+### Classe Conversor
 
     public class ConversorEXCNana {
     public static Decimal CelsiusParaFahrenheit(Decimal celsius){
@@ -33,7 +33,7 @@ Usando a classe de teste para testar uma classe chamada conversor no Apex
 }
 
 
-   ## Classe de Teste
+   ### Classe de Teste
 
     @isTest
     public class ConversorEXCNanaTest {
